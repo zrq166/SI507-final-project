@@ -14,7 +14,7 @@ help_text = '''
             Description: Lists tv name, popularity and rating according to the specified parameters. 
             (The results are ordered by the descending order of popularity)
             Options:
-                    * top=<limit> | bottom=<limit> [default: top=50] [<limit>range: 0 to 100]
+                    * top=<limit> | bottom=<limit> [default: top=50] [<limit>range: 0 to 200]
                     Description: Specifies whether to list the top <limit> matches or the 
                     bottom <limit> matches. 
     
