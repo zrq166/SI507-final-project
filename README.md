@@ -1,5 +1,6 @@
 # SI507-final-project
- 
+
+My project is aimed at those who love TV shows. The purpose is to give tv-lovers a very convenient tool to get the detailed information of all the TV shows in the world in 2018. In my program, I get Top 200 TV shows in 2018 from The Movie Database API. Since the returned results from this API shows country in country codes. I also scrape from https://countrycode.org/ to get each Country’s full name.
 * ## Data Source 
 > There are two data sources in my project. Country table and TV table have a relation of Country Name. The TV table has a Foriegn key of CountryId, which references Id in Country table.
 >> 1. Country table is composed of data from <https://countrycode.org/>. I scrape COUNTRY, ISO CODES, POPULATION, AREA KM2, and GDP $USD from the website.  
